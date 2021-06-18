@@ -20,3 +20,6 @@ In index.html, rebuild the mocks in the designs folder in semantic HTML, CSS and
 - A url with http://{{page_url}}?id=b2 should have the second show selected on page reload.
 - When clicking between shows, hitting “Back” and “Forward” on the browser will also update the url, cover image, title, and episode count according to the show id.
 - The minimum width of the screen is 320px. The horizontal breakpoint is at 980px. Build with a mobile first approach.
+
+## Run the project
+Use the commands `yarn dev` (development) or `yarn build && yarn start` (production).
