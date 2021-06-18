@@ -2,6 +2,7 @@
 	"compilerOptions": {
 		"baseUrl": ".",
 		"paths": {
+			"shows.json": ["shows.json"],
 			"components/*": ["components/*"],
 			"lib/*": ["lib/*"],
 			"tests/*": ["__tests__/*"]

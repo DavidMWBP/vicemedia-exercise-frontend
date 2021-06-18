@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with the show titled 'Love Industries' 1`] = `
+<div
+  className="ShowOverviewstyled__StyledShowOverview-xnlc2h-0 cdAXGO"
+>
+  <div
+    className="Showstyled__StyledShow-sc-7uvw6o-0 fGelNb"
+  >
+    <div
+      style={
+        Object {
+          "boxSizing": "border-box",
+          "display": "inline-block",
+          "margin": 0,
+          "maxWidth": "100%",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "block",
+            "maxWidth": "100%",
+          }
+        }
+      >
+        <img
+          alt=""
+          aria-hidden={true}
+          role="presentation"
+          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjkwIiBoZWlnaHQ9IjQzMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+          style={
+            Object {
+              "border": "none",
+              "display": "block",
+              "margin": 0,
+              "maxWidth": "100%",
+              "padding": 0,
+            }
+          }
+        />
+      </div>
+      <img
+        alt="Love Industries"
+        className="Showstyled__StyledImage-sc-7uvw6o-1"
+        decoding="async"
+        src="/_next/image?url=%2Fimages%2Floveindustries.jpg&w=640&q=75"
+        srcSet="/_next/image?url=%2Fimages%2Floveindustries.jpg&w=384&q=75 1x, /_next/image?url=%2Fimages%2Floveindustries.jpg&w=640&q=75 2x"
+        style={
+          Object {
+            "border": "none",
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": 0,
+            "left": 0,
+            "margin": "auto",
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minHeight": "100%",
+            "minWidth": "100%",
+            "objectFit": undefined,
+            "objectPosition": undefined,
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": 0,
+          }
+        }
+      />
+    </div>
+    <div
+      className="Showstyled__StyledMetadata-sc-7uvw6o-2 hYvsDa"
+    >
+      <div
+        className="Showstyled__StyledEpisodes-sc-7uvw6o-3 cAGvVV"
+      >
+        21
+         episodes
+      </div>
+      <h3
+        className="Showstyled__StyledTitle-sc-7uvw6o-4 dWshOm"
+      >
+        Love Industries
+      </h3>
+    </div>
+  </div>
+  <div
+    className="ShowOverviewstyled__StyledShowSelectorWrapper-xnlc2h-1 iQpDxi"
+  >
+    <div
+      className="ShowOverviewstyled__StyledShow-xnlc2h-2 eKxnIL"
+    >
+      <div
+        className="ShowOverviewstyled__StyledShowLabel-xnlc2h-4 bSnTwO"
+      >
+        1
+      </div>
+      <div
+        className="ShowOverviewstyled__StyledShowSelector-xnlc2h-3 fvZsjw"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="ShowOverviewstyled__StyledShow-xnlc2h-2 eKxnIL"
+    >
+      <div
+        className="ShowOverviewstyled__StyledShowLabel-xnlc2h-4 bSnTwO"
+      >
+        2
+      </div>
+      <div
+        className="ShowOverviewstyled__StyledShowSelector-xnlc2h-3 drESUx"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="ShowOverviewstyled__StyledShow-xnlc2h-2 eKxnIL"
+    >
+      <div
+        className="ShowOverviewstyled__StyledShowLabel-xnlc2h-4 bSnTwO"
+      >
+        3
+      </div>
+      <div
+        className="ShowOverviewstyled__StyledShowSelector-xnlc2h-3 cvvlrK"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="ShowOverviewstyled__StyledShow-xnlc2h-2 eKxnIL"
+    >
+      <div
+        className="ShowOverviewstyled__StyledShowLabel-xnlc2h-4 bSnTwO"
+      >
+        4
+      </div>
+      <div
+        className="ShowOverviewstyled__StyledShowSelector-xnlc2h-3 fVtxbj"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="ShowOverviewstyled__StyledShow-xnlc2h-2 eKxnIL"
+    >
+      <div
+        className="ShowOverviewstyled__StyledShowLabel-xnlc2h-4 eTFiCi"
+      >
+        5
+      </div>
+      <div
+        className="ShowOverviewstyled__StyledShowSelector-xnlc2h-3 kXgOJY"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="ShowOverviewstyled__StyledShow-xnlc2h-2 eKxnIL"
+    >
+      <div
+        className="ShowOverviewstyled__StyledShowLabel-xnlc2h-4 bSnTwO"
+      >
+        6
+      </div>
+      <div
+        className="ShowOverviewstyled__StyledShowSelector-xnlc2h-3 fpRygH"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="ShowOverviewstyled__StyledShow-xnlc2h-2 eKxnIL"
+    >
+      <div
+        className="ShowOverviewstyled__StyledShowLabel-xnlc2h-4 bSnTwO"
+      >
+        7
+      </div>
+      <div
+        className="ShowOverviewstyled__StyledShowSelector-xnlc2h-3 gsgixc"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="ShowOverviewstyled__StyledShow-xnlc2h-2 eKxnIL"
+    >
+      <div
+        className="ShowOverviewstyled__StyledShowLabel-xnlc2h-4 bSnTwO"
+      >
+        8
+      </div>
+      <div
+        className="ShowOverviewstyled__StyledShowSelector-xnlc2h-3 duaapl"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="ShowOverviewstyled__StyledShow-xnlc2h-2 eKxnIL"
+    >
+      <div
+        className="ShowOverviewstyled__StyledShowLabel-xnlc2h-4 bSnTwO"
+      >
+        9
+      </div>
+      <div
+        className="ShowOverviewstyled__StyledShowSelector-xnlc2h-3 nXgVL"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="ShowOverviewstyled__StyledShow-xnlc2h-2 eKxnIL"
+    >
+      <div
+        className="ShowOverviewstyled__StyledShowLabel-xnlc2h-4 bSnTwO"
+      >
+        10
+      </div>
+      <div
+        className="ShowOverviewstyled__StyledShowSelector-xnlc2h-3 iNHjaj"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

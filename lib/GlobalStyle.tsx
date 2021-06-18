@@ -21,6 +21,13 @@ export const media = {
 };
 
 export const GlobalStyle = createGlobalStyle`
+	html {
+		--font-size-subtitle: 12px;
+
+		--spacing-show-selector: 32px;
+		--spacing-show-selector-negative: -32px;
+	}
+
 	body {
 		margin: 0;
 		padding: 0;
