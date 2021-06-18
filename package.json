@@ -9,7 +9,7 @@
 		"start-api": "json-server --watch shows.json --port 3001",
 		"dev": "concurrently \"yarn start-api\" \"next dev\"",
 		"build": "next build",
-		"start": "next start",
+		"start": "concurrently \"yarn start-api\" \"next start\"",
 		"type-check": "tsc --pretty --noEmit",
 		"format": "prettier --write .",
 		"lint": "eslint . --ext ts --ext tsx --ext js",
