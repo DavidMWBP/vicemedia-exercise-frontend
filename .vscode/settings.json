@@ -1,0 +1,9 @@
+{
+	"javascript.preferences.importModuleSpecifier": "non-relative",
+	"javascript.preferences.quoteStyle": "double",
+	"typescript.preferences.importModuleSpecifier": "non-relative",
+	"typescript.preferences.quoteStyle": "double",
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true
+	}
+}
