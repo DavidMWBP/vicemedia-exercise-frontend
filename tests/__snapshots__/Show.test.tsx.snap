@@ -2,7 +2,7 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="Showstyled__StyledShow-sc-7uvw6o-0 hHtPLZ"
+  className="Showstyled__StyledShow-sc-7uvw6o-0 cGpFxR"
 >
   <div
     style={
@@ -75,7 +75,7 @@ exports[`renders correctly 1`] = `
     className="Showstyled__StyledMetadata-sc-7uvw6o-2 hYvsDa"
   >
     <div
-      className="Showstyled__StyledEpisodes-sc-7uvw6o-3 hYBOKS"
+      className="Showstyled__StyledEpisodes-sc-7uvw6o-3 kBHXUu"
     >
       20
        episodes

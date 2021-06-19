@@ -5,7 +5,7 @@ exports[`renders correctly 1`] = `
   className="ShowSelectorstyled__StyledWrapper-sc-1mhcrp9-0 ihnzvx"
 >
   <div
-    className="ShowSelectorstyled__StyledShowLabel-sc-1mhcrp9-3 enGxkd"
+    className="ShowSelectorstyled__StyledShowLabel-sc-1mhcrp9-3 jBVUas"
   >
     6
   </div>
@@ -13,7 +13,7 @@ exports[`renders correctly 1`] = `
     style={Object {}}
   >
     <div
-      className="ShowSelectorstyled__StyledImageWrapper-sc-1mhcrp9-2 gqSoxJ"
+      className="ShowSelectorstyled__StyledImageWrapper-sc-1mhcrp9-2 jYOuUx"
     >
       <div
         style={
@@ -32,7 +32,7 @@ exports[`renders correctly 1`] = `
       >
         <img
           alt="show selector pilotweek"
-          className="ShowSelectorstyled__StyledShowSelector-sc-1mhcrp9-1 gRAISs"
+          className="ShowSelectorstyled__StyledShowSelector-sc-1mhcrp9-1 gfvZOF"
           decoding="async"
           onClick={[Function]}
           sizes="100vw"

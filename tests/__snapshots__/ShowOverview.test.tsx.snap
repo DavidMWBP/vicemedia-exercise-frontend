@@ -13,7 +13,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
       }
     >
       <div
-        className="Showstyled__StyledShow-sc-7uvw6o-0 hHtPLZ"
+        className="Showstyled__StyledShow-sc-7uvw6o-0 cGpFxR"
       >
         <div
           style={
@@ -86,7 +86,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
           className="Showstyled__StyledMetadata-sc-7uvw6o-2 hYvsDa"
         >
           <div
-            className="Showstyled__StyledEpisodes-sc-7uvw6o-3 hYBOKS"
+            className="Showstyled__StyledEpisodes-sc-7uvw6o-3 kBHXUu"
           >
             21
              episodes
@@ -101,13 +101,13 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
     </div>
   </div>
   <div
-    className="ShowOverviewstyled__StyledShowSelectorWrapper-xnlc2h-1 zrJuL"
+    className="ShowOverviewstyled__StyledShowSelectorWrapper-xnlc2h-1 iGydrH"
   >
     <div
       className="ShowSelectorstyled__StyledWrapper-sc-1mhcrp9-0 ihnzvx"
     >
       <div
-        className="ShowSelectorstyled__StyledShowLabel-sc-1mhcrp9-3 jjkZjV"
+        className="ShowSelectorstyled__StyledShowLabel-sc-1mhcrp9-3 bvPzBU"
       >
         1
       </div>
@@ -115,7 +115,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
         style={Object {}}
       >
         <div
-          className="ShowSelectorstyled__StyledImageWrapper-sc-1mhcrp9-2 gqSoxJ"
+          className="ShowSelectorstyled__StyledImageWrapper-sc-1mhcrp9-2 jYOuUx"
         >
           <div
             style={
@@ -134,7 +134,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
           >
             <img
               alt="show selector Gaycation"
-              className="ShowSelectorstyled__StyledShowSelector-sc-1mhcrp9-1 iAylbL"
+              className="ShowSelectorstyled__StyledShowSelector-sc-1mhcrp9-1 fEgwBO"
               decoding="async"
               onClick={[Function]}
               sizes="100vw"
@@ -171,7 +171,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
       className="ShowSelectorstyled__StyledWrapper-sc-1mhcrp9-0 ihnzvx"
     >
       <div
-        className="ShowSelectorstyled__StyledShowLabel-sc-1mhcrp9-3 jjkZjV"
+        className="ShowSelectorstyled__StyledShowLabel-sc-1mhcrp9-3 bvPzBU"
       >
         2
       </div>
@@ -179,7 +179,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
         style={Object {}}
       >
         <div
-          className="ShowSelectorstyled__StyledImageWrapper-sc-1mhcrp9-2 gqSoxJ"
+          className="ShowSelectorstyled__StyledImageWrapper-sc-1mhcrp9-2 jYOuUx"
         >
           <div
             style={
@@ -198,7 +198,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
           >
             <img
               alt="show selector Huang's World"
-              className="ShowSelectorstyled__StyledShowSelector-sc-1mhcrp9-1 iAylbL"
+              className="ShowSelectorstyled__StyledShowSelector-sc-1mhcrp9-1 fEgwBO"
               decoding="async"
               onClick={[Function]}
               sizes="100vw"
@@ -235,7 +235,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
       className="ShowSelectorstyled__StyledWrapper-sc-1mhcrp9-0 ihnzvx"
     >
       <div
-        className="ShowSelectorstyled__StyledShowLabel-sc-1mhcrp9-3 jjkZjV"
+        className="ShowSelectorstyled__StyledShowLabel-sc-1mhcrp9-3 bvPzBU"
       >
         3
       </div>
@@ -243,7 +243,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
         style={Object {}}
       >
         <div
-          className="ShowSelectorstyled__StyledImageWrapper-sc-1mhcrp9-2 gqSoxJ"
+          className="ShowSelectorstyled__StyledImageWrapper-sc-1mhcrp9-2 jYOuUx"
         >
           <div
             style={
@@ -262,7 +262,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
           >
             <img
               alt="show selector King of The Road"
-              className="ShowSelectorstyled__StyledShowSelector-sc-1mhcrp9-1 iAylbL"
+              className="ShowSelectorstyled__StyledShowSelector-sc-1mhcrp9-1 fEgwBO"
               decoding="async"
               onClick={[Function]}
               sizes="100vw"
@@ -299,7 +299,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
       className="ShowSelectorstyled__StyledWrapper-sc-1mhcrp9-0 ihnzvx"
     >
       <div
-        className="ShowSelectorstyled__StyledShowLabel-sc-1mhcrp9-3 jjkZjV"
+        className="ShowSelectorstyled__StyledShowLabel-sc-1mhcrp9-3 bvPzBU"
       >
         4
       </div>
@@ -307,7 +307,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
         style={Object {}}
       >
         <div
-          className="ShowSelectorstyled__StyledImageWrapper-sc-1mhcrp9-2 gqSoxJ"
+          className="ShowSelectorstyled__StyledImageWrapper-sc-1mhcrp9-2 jYOuUx"
         >
           <div
             style={
@@ -326,7 +326,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
           >
             <img
               alt="show selector Last Chance High"
-              className="ShowSelectorstyled__StyledShowSelector-sc-1mhcrp9-1 iAylbL"
+              className="ShowSelectorstyled__StyledShowSelector-sc-1mhcrp9-1 fEgwBO"
               decoding="async"
               onClick={[Function]}
               sizes="100vw"
@@ -363,7 +363,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
       className="ShowSelectorstyled__StyledWrapper-sc-1mhcrp9-0 ihnzvx"
     >
       <div
-        className="ShowSelectorstyled__StyledShowLabel-sc-1mhcrp9-3 enGxkd"
+        className="ShowSelectorstyled__StyledShowLabel-sc-1mhcrp9-3 jBVUas"
       >
         5
       </div>
@@ -371,7 +371,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
         style={Object {}}
       >
         <div
-          className="ShowSelectorstyled__StyledImageWrapper-sc-1mhcrp9-2 gqSoxJ"
+          className="ShowSelectorstyled__StyledImageWrapper-sc-1mhcrp9-2 jYOuUx"
         >
           <div
             style={
@@ -390,7 +390,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
           >
             <img
               alt="show selector Love Industries"
-              className="ShowSelectorstyled__StyledShowSelector-sc-1mhcrp9-1 gRAISs"
+              className="ShowSelectorstyled__StyledShowSelector-sc-1mhcrp9-1 gfvZOF"
               decoding="async"
               onClick={[Function]}
               sizes="100vw"
@@ -427,7 +427,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
       className="ShowSelectorstyled__StyledWrapper-sc-1mhcrp9-0 ihnzvx"
     >
       <div
-        className="ShowSelectorstyled__StyledShowLabel-sc-1mhcrp9-3 jjkZjV"
+        className="ShowSelectorstyled__StyledShowLabel-sc-1mhcrp9-3 bvPzBU"
       >
         6
       </div>
@@ -435,7 +435,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
         style={Object {}}
       >
         <div
-          className="ShowSelectorstyled__StyledImageWrapper-sc-1mhcrp9-2 gqSoxJ"
+          className="ShowSelectorstyled__StyledImageWrapper-sc-1mhcrp9-2 jYOuUx"
         >
           <div
             style={
@@ -454,7 +454,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
           >
             <img
               alt="show selector pilotweek"
-              className="ShowSelectorstyled__StyledShowSelector-sc-1mhcrp9-1 iAylbL"
+              className="ShowSelectorstyled__StyledShowSelector-sc-1mhcrp9-1 fEgwBO"
               decoding="async"
               onClick={[Function]}
               sizes="100vw"
@@ -491,7 +491,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
       className="ShowSelectorstyled__StyledWrapper-sc-1mhcrp9-0 ihnzvx"
     >
       <div
-        className="ShowSelectorstyled__StyledShowLabel-sc-1mhcrp9-3 jjkZjV"
+        className="ShowSelectorstyled__StyledShowLabel-sc-1mhcrp9-3 bvPzBU"
       >
         7
       </div>
@@ -499,7 +499,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
         style={Object {}}
       >
         <div
-          className="ShowSelectorstyled__StyledImageWrapper-sc-1mhcrp9-2 gqSoxJ"
+          className="ShowSelectorstyled__StyledImageWrapper-sc-1mhcrp9-2 jYOuUx"
         >
           <div
             style={
@@ -518,7 +518,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
           >
             <img
               alt="show selector States of Undress"
-              className="ShowSelectorstyled__StyledShowSelector-sc-1mhcrp9-1 iAylbL"
+              className="ShowSelectorstyled__StyledShowSelector-sc-1mhcrp9-1 fEgwBO"
               decoding="async"
               onClick={[Function]}
               sizes="100vw"
@@ -555,7 +555,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
       className="ShowSelectorstyled__StyledWrapper-sc-1mhcrp9-0 ihnzvx"
     >
       <div
-        className="ShowSelectorstyled__StyledShowLabel-sc-1mhcrp9-3 jjkZjV"
+        className="ShowSelectorstyled__StyledShowLabel-sc-1mhcrp9-3 bvPzBU"
       >
         8
       </div>
@@ -563,7 +563,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
         style={Object {}}
       >
         <div
-          className="ShowSelectorstyled__StyledImageWrapper-sc-1mhcrp9-2 gqSoxJ"
+          className="ShowSelectorstyled__StyledImageWrapper-sc-1mhcrp9-2 jYOuUx"
         >
           <div
             style={
@@ -582,7 +582,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
           >
             <img
               alt="show selector VICE"
-              className="ShowSelectorstyled__StyledShowSelector-sc-1mhcrp9-1 iAylbL"
+              className="ShowSelectorstyled__StyledShowSelector-sc-1mhcrp9-1 fEgwBO"
               decoding="async"
               onClick={[Function]}
               sizes="100vw"
@@ -619,7 +619,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
       className="ShowSelectorstyled__StyledWrapper-sc-1mhcrp9-0 ihnzvx"
     >
       <div
-        className="ShowSelectorstyled__StyledShowLabel-sc-1mhcrp9-3 jjkZjV"
+        className="ShowSelectorstyled__StyledShowLabel-sc-1mhcrp9-3 bvPzBU"
       >
         9
       </div>
@@ -627,7 +627,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
         style={Object {}}
       >
         <div
-          className="ShowSelectorstyled__StyledImageWrapper-sc-1mhcrp9-2 gqSoxJ"
+          className="ShowSelectorstyled__StyledImageWrapper-sc-1mhcrp9-2 jYOuUx"
         >
           <div
             style={
@@ -646,7 +646,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
           >
             <img
               alt="show selector Woman"
-              className="ShowSelectorstyled__StyledShowSelector-sc-1mhcrp9-1 iAylbL"
+              className="ShowSelectorstyled__StyledShowSelector-sc-1mhcrp9-1 fEgwBO"
               decoding="async"
               onClick={[Function]}
               sizes="100vw"
@@ -683,7 +683,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
       className="ShowSelectorstyled__StyledWrapper-sc-1mhcrp9-0 ihnzvx"
     >
       <div
-        className="ShowSelectorstyled__StyledShowLabel-sc-1mhcrp9-3 jjkZjV"
+        className="ShowSelectorstyled__StyledShowLabel-sc-1mhcrp9-3 bvPzBU"
       >
         10
       </div>
@@ -691,7 +691,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
         style={Object {}}
       >
         <div
-          className="ShowSelectorstyled__StyledImageWrapper-sc-1mhcrp9-2 gqSoxJ"
+          className="ShowSelectorstyled__StyledImageWrapper-sc-1mhcrp9-2 jYOuUx"
         >
           <div
             style={
@@ -710,7 +710,7 @@ exports[`renders correctly with the show titled 'Love Industries' 1`] = `
           >
             <img
               alt="show selector VICE World of Sports"
-              className="ShowSelectorstyled__StyledShowSelector-sc-1mhcrp9-1 iAylbL"
+              className="ShowSelectorstyled__StyledShowSelector-sc-1mhcrp9-1 fEgwBO"
               decoding="async"
               onClick={[Function]}
               sizes="100vw"
