@@ -11,6 +11,8 @@ function Home({ shows, showId }: ShowOverviewProps): JSX.Element {
 		<>
 			<Head>
 				<title>Vice - Shows</title>
+				<meta name="description" content="Vice shows overview" />
+				<meta name="keywords" content="vice, shows" />
 			</Head>
 			<ShowOverview shows={shows} showId={showId} />
 		</>
