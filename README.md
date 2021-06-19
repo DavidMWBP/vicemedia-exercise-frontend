@@ -25,4 +25,11 @@ In index.html, rebuild the mocks in the designs folder in semantic HTML, CSS and
 
 ## Run the project
 
-Use the commands `yarn dev` (development) or `yarn build && yarn start` (production).
+- `git clone` the project.
+- run `yarn` or `npm install`
+
+### Development
+Use the command `yarn dev` or `npm run dev`.
+
+### Production
+Use the commands `yarn build` and `yarn start` or `npm run build` and `npm run start`.
