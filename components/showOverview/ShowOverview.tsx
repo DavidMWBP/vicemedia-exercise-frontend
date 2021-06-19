@@ -1,11 +1,10 @@
 import Show, { Show as ShowInterface } from "components/showOverview/show/Show";
 import {
-	StyledShow,
-	StyledShowLabel,
 	StyledShowOverview,
-	StyledShowSelector,
 	StyledShowSelectorWrapper
 } from "components/showOverview/ShowOverview.styled";
+import ShowSelector from "components/showOverview/showSelector/ShowSelector";
+import { AnimatePresence, motion } from "framer-motion";
 import findShow from "lib/findShow";
 import useShows from "lib/hooks/useShows";
 import { useRouter } from "next/dist/client/router";
@@ -25,7 +24,7 @@ function ShowOverview({
 	shows,
 	showId
 }: ShowOverviewProps): JSX.Element | null {
-	const { push, asPath, query } = useRouter();
+	const { query } = useRouter();
 	const { data, isError } = useShows(shows);
 	const [selectedShow, setSelectedShow] = useState<ShowInterface | null>(
 		findShow(showId, shows)
@@ -37,29 +36,32 @@ function ShowOverview({
 
 	if (isError || !data) return <div>No shows have been found!</div>;
 
-	function onShowButtonClick(show: ShowInterface) {
-		const pathWithShowId = `/?id=${show.id}`;
-
-		if (pathWithShowId !== asPath) {
-			push(pathWithShowId, pathWithShowId, { shallow: true });
-		}
-	}
-
 	return (
 		<StyledShowOverview>
-			{selectedShow && <Show {...selectedShow} />}
+			<AnimatePresence>
+				<div>
+					{selectedShow && (
+						<motion.div
+							key={selectedShow.id}
+							initial={{ scale: 0 }}
+							animate={{ scale: 1 }}
+							transition={{ type: "spring", bounce: 0.25, duration: 0.25 }}
+							exit={{ scale: 0 }}
+						>
+							<Show {...selectedShow} />
+						</motion.div>
+					)}
+				</div>
+			</AnimatePresence>
 			<StyledShowSelectorWrapper>
 				{data?.map((show, index) => {
-					const isActive = selectedShow?.id === show.id;
 					return (
-						<StyledShow key={show.id}>
-							<StyledShowLabel isActive={isActive}>{index + 1}</StyledShowLabel>
-							<StyledShowSelector
-								onClick={() => onShowButtonClick(show)}
-								isActive={isActive}
-								imageUri={show.product_image_url}
-							></StyledShowSelector>
-						</StyledShow>
+						<ShowSelector
+							key={`show_${show.id}_${index}`}
+							{...show}
+							index={index}
+							isActive={selectedShow?.id === show.id}
+						/>
 					);
 				})}
 			</StyledShowSelectorWrapper>
