@@ -1,60 +1,31 @@
-import { theme } from "lib/GlobalStyle";
-import styled, { css } from "styled-components";
+import { media, theme } from "lib/GlobalStyle";
+import styled from "styled-components";
 
 export const StyledShowOverview = styled.div`
+	align-items: center;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	left: 50%;
+	max-width: 100%;
+	padding: 8px;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
 `;
 
 export const StyledShowSelectorWrapper = styled.div`
+	background-color: ${theme.colors.white};
+	border: 1px solid ${theme.colors.darkGrey};
+	box-shadow: var(--box-shadow-bottom);
+	column-gap: 16px;
 	display: flex;
 	flex-direction: row;
 	max-width: 100%;
-	overflow: hidden;
 	overflow-x: auto;
-	column-gap: 16px;
-	padding-bottom: var(--spacing-show-selector);
-	margin-top: 32px;
-`;
+	padding: 16px 8px 42px;
 
-export const StyledShow = styled.div`
-	position: relative;
-`;
-
-export const StyledShowSelector = styled.div<{
-	isActive: boolean;
-	imageUri: string;
-}>`
-	padding: 24px;
-	cursor: pointer;
-	background-color: ${theme.colors.grey};
-	transition: filter 200ms ease-in-out;
-	border-radius: 32px;
-	width: 65px;
-	height: 65px;
-	text-align: center;
-	background-image: url(${({ imageUri }) => imageUri});
-	background-size: cover;
-	filter: brightness(100%);
-	outline: none;
-
-	${({ isActive }) =>
-		isActive &&
-		css`
-			filter: brightness(50%);
-		`};
-`;
-
-export const StyledShowLabel = styled.div<{ isActive: boolean }>`
-	position: absolute;
-	bottom: var(--spacing-show-selector-negative);
-	left: 50%;
-	transform: translateX(-50%);
-
-	${({ isActive }) =>
-		isActive &&
-		css`
-			font-weight: 700;
-		`};
+	${media.mdUp} {
+		max-width: 970px;
+		padding: 32px 16px 56px;
+	}
 `;

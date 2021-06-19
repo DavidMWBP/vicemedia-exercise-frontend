@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="ShowSelectorstyled__StyledWrapper-sc-1mhcrp9-0 ihnzvx"
+>
+  <div
+    className="ShowSelectorstyled__StyledShowLabel-sc-1mhcrp9-3 jBVUas"
+  >
+    6
+  </div>
+  <div
+    style={Object {}}
+  >
+    <div
+      className="ShowSelectorstyled__StyledImageWrapper-sc-1mhcrp9-2 jYOuUx"
+    >
+      <div
+        style={
+          Object {
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "left": 0,
+            "margin": 0,
+            "overflow": "hidden",
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <img
+          alt="show selector pilotweek"
+          className="ShowSelectorstyled__StyledShowSelector-sc-1mhcrp9-1 gfvZOF"
+          decoding="async"
+          onClick={[Function]}
+          sizes="100vw"
+          src="/_next/image?url=%2Fimages%2Fpilotweek.jpg&w=3840&q=75"
+          srcSet="/_next/image?url=%2Fimages%2Fpilotweek.jpg&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fpilotweek.jpg&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fpilotweek.jpg&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fpilotweek.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fpilotweek.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fpilotweek.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fpilotweek.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fpilotweek.jpg&w=3840&q=75 3840w"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": "cover",
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
